@@ -78,7 +78,6 @@ node* caoCrypt(node* root) {
          a = root->x;
          root = root->next;
 	  }
-	  //clear(new_root);
 	  new_root = reverse(new_root);
 	  appendList(new_root, new_list);
 	  append(a, new_list);
